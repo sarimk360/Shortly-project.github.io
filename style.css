@@ -1,0 +1,276 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  padding: 0px 100px 0px 100px;
+  margin-top: -60px;
+}
+.container-circles {
+  display: flex;
+  justify-content: space-around;
+}
+.container-circles .circles {
+  width: 95px;
+  height: 95px;
+  border-radius: 100%;
+  position: relative;
+  top: 1040px;
+}
+.container-circles .c1 {
+  background-color: rgb(75, 63, 107);
+  margin: -40px 0px 0px -80px;
+}
+.container-circles .c2 {
+  background-color: rgb(75, 63, 107);
+  margin: 0px 0px 0px 0px;
+}
+.container-circles .c3 {
+  background-color: rgb(75, 63, 107);
+  margin: 40px 90px 0px 0px;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+.head .logo {
+  font-size: 1.85em;
+  font-weight: 1000;
+}
+.head .nav-links {
+  display: flex;
+  font-weight: bold;
+  position: relative;
+  top: 14px;
+  right: 225px;
+}
+.head .nav-links .feat {
+  margin: 0px 12px 0px 0px;
+  color: rgb(193, 192, 197);
+}
+.head .nav-links .price {
+  margin: 0px 12px 0px 12px;
+  color: rgb(193, 192, 197);
+}
+.head .nav-links .resour {
+  margin: 0px 0px 0px 12px;
+  color: rgb(193, 192, 197);
+}
+.head .login-signup {
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  position: relative;
+  top: 2px;
+  right: 30px;
+}
+.head .login-signup .login {
+  margin: 0px 16px 0px 0px;
+  color: rgb(195, 194, 198);
+}
+.head .login-signup .signup {
+  margin: 0px 0px 0px 16px;
+}
+.head .login-signup .signup .signbutton {
+  padding: 10px 16px 10px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-radius: 50px;
+  background-color: rgba(40, 209, 212, 0.986);
+  border: 1px white solid;
+}
+.description-image {
+  display: flex;
+}
+.description-image .description {
+  position: relative;
+  top: 100px;
+}
+.description-image .description .maindesc1 {
+  font-size: 4em;
+  font-weight: 1000;
+  margin-right: -80px;
+}
+.description-image .description .maindesc2 {
+  font-size: 4em;
+  font-weight: 1000;
+  margin-right: -80px;
+  margin-top: -20px;
+}
+.description-image .description .subdesc {
+  font-size: 1.1em;
+  font-weight: 550;
+  margin-bottom: 40px;
+  color: rgb(193, 192, 197);
+}
+.description-image .description .getstart .getbtn {
+  padding: 20px 45px 20px 45px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  border-radius: 50px;
+  background-color: rgba(40, 209, 212, 0.986);
+  border: 1px white solid;
+}
+.description-image .desc-image .descimagetag {
+  height: 537.44px;
+  width: 620.63px;
+}
+.advstats-cards {
+  background-color: rgb(240, 241, 246);
+  padding-bottom: 210px;
+}
+.advstats-cards .shortinput-shortbtn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  top: -58px;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 0px 80px;
+  background-color: rgb(75, 63, 107);
+}
+.advstats-cards .shortinput .shortlink {
+  padding: 20px 280px 20px 20px;
+  color: rgb(193, 192, 197);
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  border-color: transparent;
+}
+.advstats-cards .shortbtn .signbutton {
+  padding: 20px 50px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  background-color: rgba(40, 209, 212, 0.986);
+  border-color: transparent;
+}
+
+.advstats-cards .advstats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 92px;
+}
+.advstats-cards .advstats .advstats-head {
+  font-size: 2em;
+  font-weight: 1000;
+  margin-bottom: 10px;
+}
+.advstats-cards .advstats .advstats-desc1 {
+  font-size: 1.1em;
+  font-weight: 550;
+  color: rgb(193, 192, 197);
+  margin: 10px 0px;
+}
+.advstats-cards .advstats .advstats-desc2 {
+  font-size: 1.1em;
+  font-weight: 550;
+  color: rgb(193, 192, 197);
+}
+.advstats-cards .cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.advstats-cards .cards .cardsHW {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 50px 30px 0px 30px;
+  height: 200px;
+  width: 250px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: white;
+}
+.advstats-cards .cards .cardsHW .cards-head {
+  font-size: 20px;
+  font-weight: 1000;
+}
+.advstats-cards .cards .cardsHW .card-desc {
+  color: rgb(193, 192, 197);
+  font-weight: 600;
+}
+.advstats-cards .cards .card1 {
+  margin: 0px 0px 0px 0px;
+}
+.advstats-cards .cards .card2 {
+  margin: 0px 0px -80px 0px;
+}
+.advstats-cards .cards .card3 {
+  margin: 0px 0px -160px 0px;
+}
+.boost-getstart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(75, 63, 107);
+  padding: 40px;
+}
+.boost-getstart .boost {
+  font-size: 2em;
+  font-weight: 1000;
+  margin-bottom: 10px;
+  color: white;
+  margin-bottom: 20px;
+}
+.boost-getstart .getstart .getbtn {
+  padding: 20px 45px 20px 45px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  border-radius: 50px;
+  background-color: rgba(40, 209, 212, 0.986);
+  border-color: transparent;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 70px 80px 70px 80px;
+  background-color: black;
+}
+.footer .logo-foot {
+  font-size: 1.85em;
+  font-weight: 1000;
+  color: white;
+}
+.footer .navlinks-foot {
+  display: flex;
+}
+.footer .navlinks-foot .feat-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0px 40px 0px 0px;
+}
+.footer .navlinks-foot .resources-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0px 40px 0px 40px;
+}
+.footer .navlinks-foot .company-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 5px 0px 0px 40px;
+}
+.footer .navlinks-foot .foothead {
+  color: white;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.footer .navlinks-foot .footlinks {
+  padding-bottom: 10px;
+  color: rgb(193, 192, 197);
+}
+.footer .icons {
+  color: white;
+  font-weight: bold;
+}
